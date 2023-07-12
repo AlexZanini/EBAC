@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #01050f;
+    color: #ecf0f1;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(201, 187, 187, 0.664);
+}
+
+header,
+section h2 {
+    font-family: 'Merriweather', serif;
+}
+
+header h1,
+section h2{
+    font-weight: normal;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+}
+
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container,
+section .container .contact-sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #01050f;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #01050f;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    border-radius: 10px;
+    margin-right: 32px;
+}
+
+.amazon{
+    height: 150px;
+}
+
+
+
+.logos-list li {
+    display: inline;
+    margin: 8px
+}
+
+body,
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contact-methods input, textarea, button{
+    border-radius: 10px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #01050f;
+    color: #fff;
+    border: none;
+    cursor: pointer
+}
+
+form button:hover {
+    background-color: #01050f;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #01050f;
+}
+
+footer {
+    background-color: #01050f;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
