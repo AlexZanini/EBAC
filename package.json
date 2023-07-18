@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/21Johnn/curso-ebac-frontend.git"
+    "url": "git+https://github.com/AlexZanini/EBAC.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/21Johnn/curso-ebac-frontend/issues"
+    "url": "https://github.com/AlexZanini/EBAC/issues"
   },
-  "homepage": "https://github.com/21Johnn/curso-ebac-frontend#readme",
+  "homepage": "https://github.com/AlexZanini/EBAC#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
