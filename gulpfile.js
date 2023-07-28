@@ -32,10 +32,11 @@ function imgCompress(){
         .pipe(gulp.dest('./build/images'));
 }
 
-
-exports.default = function(){
-    gulp.watch('./source/styles/*.scss', gulp.series(compiledSass));
-    gulp.watch('./source/scripts/*.js', gulp.series(jsCompress));
-    gulp.watch('./source/images/*.jpg', gulp.series(imgCompress));
+exports.default = function() {
+    gulp.watch('./source/styles/*.scss', { ignoreInitial: false}, gulp.series(compilaSass));
+    gulp.watch('./source/scripts/*.js', { ignoreInitial: false}, gulp.series(comprimeJavaScript));
+    gulp.watch('./source/images/*', { ignoreInitial: false}, gulp.series(comprimirImagens));
 }
+
+
 
