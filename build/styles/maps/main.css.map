@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","variaveis.scss"],"names":[],"mappings":"AAGI,SACI,iBCJO","file":"../main.css","sourcesContent":["@use \"variaveis\";\n\nbody {\n    div {\n        background-color: variaveis.$corPrincipal;\n    }\n}\n","$corPrincipal: green;\n"]}
