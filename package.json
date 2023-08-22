@@ -1,0 +1,24 @@
+{
+  "name": "curso-ebac-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    
+  },
+  "homepage": "",
+  "devDependencies": {
+    "cypress": "^12.6.0"
+  },
+  "description": ""
+}
